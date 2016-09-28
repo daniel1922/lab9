@@ -1,18 +1,18 @@
 
 public class Circle {
 
-	public Circle(double radius) { //radius of a circle *2
+	public Circle(double radius) { //radius of a circle *2 (?)
 		double circle = 2 * radius;
 		return;
 	}
 
-	public static double getCircumference(int radius) {
+	public static double getCircumference(double radius) { //3.14 * (radius*2)
 		double circumference = 2 * Math.PI * radius;
 		return circumference;
 	}
 
 	public String getFormattedCircumference() {
-		double circumference = 0.00;
+		double circumference = 0.00; 
 		return null;
 	}
 
